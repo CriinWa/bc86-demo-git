@@ -17,4 +17,5 @@
 4. Đưa file code từ laptop lên github
     + git add -A
     + git commit -m "message"
-    + git push -u origin master
+    + git push -u origin master (lần đầu đẩy lên)
+    + Lần 2 trở đi: git push 
