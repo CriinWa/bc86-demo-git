@@ -1,0 +1,20 @@
+
+---- Xác thực laptop với github ----
++ git config --global user.name "CriinWa"
++ git config --global user.email "nguyenkhoi.watanabe.@email.com"
+
+
+
+
+
+----- các bước khi tạo 1 repository github để nộp bài ---
+
+1. Tạo repo tên github (remote repo)
+2. Chuyển folder code sang local repo: 
+    + git init 
+3. Thiết lập kết nối giữa: local repo (laptop) và remote repo (github)
+    + git remote add origin https://github.com/CriinWa/bc86-demo-git.git
+4. Đưa file code từ laptop lên github
+    + git add -A
+    + git commit -m "message"
+    + git push -u origin master
