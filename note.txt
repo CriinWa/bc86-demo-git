@@ -19,3 +19,10 @@
     + git commit -m "message"
     + git push -u origin master (lần đầu đẩy lên)
     + Lần 2 trở đi: git push 
+
+    
+Branh
++Tạo nhánh mới, nhánh mới sau khi tạo sẽ có nội   dung giống hoàn toàn so với nhánh gốc:
+    - git checkout -b ten_nhanh_moi
++Chyển nhánh
+    - git checkout ten_nhanh..
